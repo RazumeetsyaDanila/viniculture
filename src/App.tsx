@@ -1,15 +1,13 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import './app.scss';
-import s from './app.module.scss'
-import House from './img/vinihHouse.png'
+import AppRouter from './components/AppRouter';
 
 const App: React.FC = () => {
   return (
-    <div className={s.container}>
-      <div className={s.gameField}>
-        <img className={s.house} src={House} alt="" />
-      </div>
-    </div>
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
   );
 }
 
