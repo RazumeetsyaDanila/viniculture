@@ -21,7 +21,6 @@ const GamePage: React.FC = () => {
                     <RedBottles redBottlesCount={2}/>
                     <WhiteBottles whiteBottlesCount={4}/> 
                 </div>
-
             </div>
         </div>
     );
