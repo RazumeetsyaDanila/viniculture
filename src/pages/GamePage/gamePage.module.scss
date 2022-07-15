@@ -1,0 +1,23 @@
+@import '../../colors.scss';
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: $vini-color;
+    background-color: $background;
+}
+
+.gameField{
+    width: 900px;
+    height: 650px;
+    border: 2px solid $vini-color;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    background-color: $background-gamefiled;
+}

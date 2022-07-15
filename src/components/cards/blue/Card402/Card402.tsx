@@ -1,11 +1,11 @@
 import React from 'react';
 
-const InfoPage: React.FC = () => {
+const Card402 = () => {
     return (
         <div>
-            info
+            
         </div>
     );
 };
 
-export default InfoPage;
+export default Card402;

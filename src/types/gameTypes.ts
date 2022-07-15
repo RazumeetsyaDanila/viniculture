@@ -1,9 +1,14 @@
 export interface IGameState {
-    step: number,
+    year: number,
     season: string,
     playerPoints: number,
     gamePoints: number,
-    currentAction: string
+    currentAction: string,
+    yellowDeck: number[],
+    blueDeck: number[],
+    greenDeck: number[],
+    purpleDeck: number[],
+    cardsInHand: []
 }
 
 export enum gameActionTypes {

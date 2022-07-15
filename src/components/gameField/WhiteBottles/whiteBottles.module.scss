@@ -1,0 +1,16 @@
+@import '../../../colors.scss';
+
+.container{
+    width: 160px;
+    height: 170px;
+    background-color: $background-grape;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grapesImg{
+    width: 150px;
+    margin-left: 2px;
+}

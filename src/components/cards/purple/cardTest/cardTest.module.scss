@@ -1,0 +1,83 @@
+// @font-face {
+//     font-family: 'Pangolin';
+//     src: url('Pangolin-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+// }
+// body{
+//     display: flex;
+//     justify-content: center;
+// }
+
+.cardContainer{
+    background-color: #5f0f40;
+    width: 100px;
+    height: 140px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1400px;
+    transform-style: preserve-3d;
+}
+
+.cardContainer:hover{
+    // box-shadow: 4px 4px 2px 1px rgba(95, 15, 64, .2);
+    cursor: pointer;
+    &:hover .peopleImg{
+        filter: invert(69%) sepia(45%) saturate(308%) hue-rotate(274deg) brightness(101%) contrast(83%);
+    }
+}
+
+
+.cardContentFront{
+    width: 90px;
+    height: 130px;
+    border: #e9a3ce 1px solid;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.cardContentBack{
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(180deg);
+}
+
+.cardDescription{
+    width: 80px;
+    height: 70px;
+    background-color: #70194f;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    color: #e9a3ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size:10px;
+    font-family: 'Pangolin', cursive;
+}
+
+.cardTitle{
+    color: #e9a3ce;
+    font-size: 12px;
+    font-family: 'Pangolin', cursive;
+}
+
+.cardImg{
+    /* border: #e9a3ce 1px solid; */
+    border-radius: 4px;
+    width: 70px;
+    margin-bottom: 2px;
+    
+}
+
+.peopleImg{
+    filter: invert(7%) sepia(43%) saturate(3232%) hue-rotate(297deg) brightness(100%) contrast(101%);
+}

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const InfoPage: React.FC = () => {
+const CardRouter: React.FC = () => {
     return (
         <div>
-            info
+            
         </div>
     );
 };
 
-export default InfoPage;
+export default CardRouter;

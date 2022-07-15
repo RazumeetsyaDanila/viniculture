@@ -1,0 +1,51 @@
+@import '../../../colors.scss';
+
+.container{
+    position: relative;
+}
+
+.house{
+    width: 500px;
+}
+
+.harvest80{
+    position: absolute;
+    left: 316px;
+    top: 115px
+}
+
+.harvest105{
+    position: absolute;
+    left: 214px;
+    top: 132px
+}
+
+.harvest95{
+    position: absolute;
+    left: 120px;
+    top: 110px
+}
+
+.harvest95label{
+    font-size: 26px;
+    position: absolute;
+    left: 150px;
+    top: 225px;
+    color: $vini-color;
+}
+
+.harvest105label{
+    font-size: 26px;
+    position: absolute;
+    left: 245px;
+    top: 235px;
+    color: $vini-color;
+}
+
+.harvest80label{
+    font-size: 26px;
+    position: absolute;
+    left: 342px;
+    top: 230px;
+    color: $vini-color;
+}
